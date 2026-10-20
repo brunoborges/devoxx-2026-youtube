@@ -107,9 +107,9 @@ html[data-theme="dark"] {
   <div id="empty" class="all-empty hidden"><h2>No matching videos</h2><p>Try fewer keywords, a wider date range, or a lower minimum view count.</p><button id="emptyreset" class="primary">Show all videos</button></div>
   <section id="overview" aria-label="Summary metrics"><dl class="metrics" id="metrics"></dl></section>
   <section class="panel speaker-benchmark" id="speaker-benchmark" aria-labelledby="speaker-heading">
-    <div class="panelhead"><div><h2 id="speaker-heading">Where does your talk sit?</h2><p>Select your talk independently of the filters above. Compare public reach and response, not talk quality.</p></div></div>
+    <div class="panelhead"><div><h2 id="speaker-heading">Where does your talk sit?</h2><p>Find your talk with the title-keyword search above, then choose a matching title. Compare public reach and response, not talk quality.</p></div></div>
     <div class="benchmark-controls">
-      <div><label for="talk">Your talk · all 192 titles</label><select id="talk" aria-describedby="talk-help"><option value="">Choose a talk…</option></select><p class="filterhelp" id="talk-help">Type a title's first letters while this list is focused, or browse the alphabetical list. This does not change dashboard filters.</p></div>
+      <div><label for="talk" id="talk-label">Your talk · matching titles</label><select id="talk" aria-describedby="talk-help"><option value="">Choose a talk…</option></select><p class="filterhelp" id="talk-help">Title keywords and All/Any matching narrow this alphabetical list; date, topic, and view filters do not. Choosing a talk does not change the comparison group. All videos still benchmarks against all 192.</p></div>
       <div><label for="benchmark-population">Compare against</label><select id="benchmark-population"><option value="all">All 192 videos (default)</option><option value="filtered">Current dashboard filters</option></select><p class="filterhelp">All videos ignores title search and every other filter. Filtered mode uses the current selection, including title search.</p></div>
     </div>
     <p class="benchmark-summary" id="speaker-summary" role="status" aria-live="polite"></p>
@@ -139,7 +139,7 @@ html[data-theme="dark"] {
     <li><strong>Source:</strong> 192 publicly listed videos from <a href="https://www.youtube.com/@DevoxxForever/videos" target="_blank" rel="noopener noreferrer">DevoxxForever’s Videos tab</a>, published from October 1, 2026 through the October 20 extraction. No qualifying uploads after October 13 were found. Shorts, Live, and unavailable uploads are excluded.</li>
     <li><strong>Snapshot:</strong> exact watch-page views and public likes captured October 20, 2026, approximately 14:18–14:21 UTC. Counts are embedded locally and do not update. Individual capture times are included in CSV exports.</li>
     <li><strong>Comments:</strong> collected separately from the public watch-page comments header, resolving its initial comments continuation when needed. Exact integer counts only; abbreviated/missing counts are unavailable, disabled comments are marked disabled, and request/parser failures are marked failed. None is assumed to mean zero. Each record retains comment count status, reported label, source, error (if any), and a separate UTC collection timestamp. No comment text or authors are included.</li>
-    <li><strong>Speaker benchmarks:</strong> all 192 videos by default, regardless of title search. You may explicitly switch to the current dashboard filters. The independent talk selector never changes the comparison population. A selected talk outside the cohort is still compared with that cohort and is marked as outside it. Comments exclude null counts and show the smaller sample size; genuine zeros are included.</li>
+    <li><strong>Speaker benchmarks:</strong> all 192 videos by default, regardless of title search. Title keywords and their All/Any matching mode narrow the alphabetical talk selector, including phrases, exclusions, and case/accent normalization; other filters do not narrow it. A matching selection is preserved; otherwise the first matching talk is selected. No title matches clears the talk and its markers. Clearing the search restores all titles. Choosing a talk never changes the comparison population. You may explicitly switch to the current dashboard filters. A selected talk outside the cohort is still compared with that cohort and is marked as outside it. Comments exclude null counts and show the smaller sample size; genuine zeros are included.</li>
     <li><strong>Percentiles:</strong> P50/P90/P95/P99 are count thresholds using ascending values and linear interpolation at index (n − 1) × p (the same as inclusive spreadsheet percentiles). Fractional thresholds are not observed integer counts. Percentile rank = 100 × number of comparison values ≤ the talk's value ÷ n; ties receive the same upper cumulative rank. The empirical CDF is a step curve. Empty populations yield no thresholds/ranks; a single value yields that value for every threshold. High ranks describe public counts, not talk quality.</li>
     <li><strong>Publication dates:</strong> calendar dates from YouTube’s supplied publication timestamps (UTC−07:00), not event/session dates. The date interval is inclusive.</li>
     <li><strong>Like rate:</strong> likes ÷ views × 100. Aggregate rates are view-weighted (sum of likes ÷ sum of views), not averages of percentages. Likes are not unique viewers or a measure of watch time.</li>
@@ -227,6 +227,16 @@ function tokens(query){
 function matches(r,query,mode){
   const ts=tokens(query),positive=ts.filter(t=>!t.exclude),negative=ts.filter(t=>t.exclude);
   return negative.every(t=>!r.normalized.includes(t.text))&&(!positive.length||(mode==="any"?positive.some(t=>r.normalized.includes(t.text)):positive.every(t=>r.normalized.includes(t.text))));
+}
+function updateTalkOptions(){
+  const select=$("talk"),previous=select.value;
+  const rows=DATA.filter(r=>matches(r,$("query").value,$("match").value)).sort((a,b)=>a.title.localeCompare(b.title));
+  const placeholder=document.createElement("option");placeholder.value="";placeholder.textContent=rows.length?"Choose a talk…":"No matching talks · clear title search";
+  select.replaceChildren(placeholder);
+  rows.forEach(r=>{const option=document.createElement("option");option.value=r.url;option.textContent=r.title;select.append(option);});
+  select.value=rows.some(r=>r.url===previous)?previous:rows.length&&(previous||tokens($("query").value).length)?rows[0].url:"";
+  select.disabled=!rows.length;
+  $("talk-label").textContent=`Your talk · ${rows.length} matching ${rows.length===1?"title":"titles"}`;
 }
 function filterRows(){
   const band=$("reach").value===""?null:BANDS[Number($("reach").value)],min=Number($("minviews").value)||0;
@@ -331,7 +341,7 @@ function render(){
   $("resultstatus").innerHTML=`<strong>${n(selected.length)} of ${n(DATA.length)} videos</strong> · ${n(total(selected,"views"))} views · ${n(total(selected,"likes"))} likes`;
   $("empty").classList.toggle("hidden",!!selected.length);
   $("analysis").classList.toggle("hidden",!selected.length);
-  metrics();speakerBenchmark();benchmark();ranking();distribution();findings();scatter();cohorts();topicStats();words();renderTable();
+  updateTalkOptions();metrics();speakerBenchmark();benchmark();ranking();distribution();findings();scatter();cohorts();topicStats();words();renderTable();
 }
 function reset(){
   ["query","start","end","topic","reach"].forEach(id=>$(id).value="");
@@ -346,7 +356,6 @@ function csvText(rs){
   const fields=["title","url","date_published","views","likes","comments","comments_status","comments_captured_at_utc","comments_source","comments_reported_text","comments_error","like_rate_percent","lifetime_views_per_day","age_days","captured_at_utc","published_at","channel_id","topics"];
   return "\ufeff"+[fields,...rs.map(r=>[r.title,r.url,r.date_published,r.views,r.likes,r.comments,r.comments_status,r.comments_captured_at_utc,r.comments_source,r.comments_reported_text,r.comments_error,(r.rate*100).toFixed(4),r.perday.toFixed(2),r.age.toFixed(4),r.captured_at_utc,r.published_at,r.channel_id,r.topics.join("; ")])].map(row=>row.map(csvCell).join(",")).join("\r\n");
 }
-[...DATA].sort((a,b)=>a.title.localeCompare(b.title)).forEach(r=>{const o=document.createElement("option");o.value=r.url;o.textContent=r.title;$("talk").append(o);});
 $("talk").addEventListener("change",speakerBenchmark);$("benchmark-population").addEventListener("change",speakerBenchmark);
 TOPICS.concat([{name:"Other / unclassified"}]).forEach(t=>{const o=document.createElement("option");o.value=t.name;o.textContent=t.name;$("topic").append(o);});
 BANDS.forEach((b,i)=>{const o=document.createElement("option");o.value=i;o.textContent=b.name;$("reach").append(o);});

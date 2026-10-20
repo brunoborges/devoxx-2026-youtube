@@ -17,7 +17,9 @@ function dashboard() {
   const get = id => {
     if (!elements.has(id)) elements.set(id, {
       value: defaults[id] || "", textContent: defaults[id] || "", innerHTML: "",
-      classList: { toggle() {} }, addEventListener() {}, append() {},
+      children: [], classList: { toggle() {} }, addEventListener() {},
+      append(child) { this.children.push(child); },
+      replaceChildren(...children) { this.children = children; },
     });
     return elements.get(id);
   };
@@ -49,12 +51,14 @@ test("inclusive quantiles and upper-tie CDF ranks handle empty, singleton, zeros
   assert.equal(api.percentileStats(rows, "comments", null).rank, null);
 });
 
-test("talk selection is independent from filters; all videos is the default population", () => {
+test("title search narrows talk options without changing the default benchmark population", () => {
   const { api, get } = dashboard();
   get("talk").value = rows[0].url;
   get("query").value = '"' + rows[0].title.replaceAll('"', "") + '"';
   api.render();
   assert.equal(api.selected.length, 1);
+  assert.equal(get("talk").children.length, 2);
+  assert.equal(get("talk").value, rows[0].url);
   assert.match(get("speaker-summary").innerHTML, /all videos · 192 videos/);
   assert.match(get("percentile-charts").innerHTML, /cdf-marker/);
   get("benchmark-population").value = "filtered";
@@ -68,11 +72,45 @@ test("talk selection is independent from filters; all videos is the default popu
   get("query").value = "doesnotexistanywhere";
   api.render();
   assert.equal(api.selected.length, 0);
+  assert.equal(get("talk").value, "");
+  assert.equal(get("talk").disabled, true);
+  assert.equal(get("talk").children.length, 1);
+  assert.doesNotMatch(get("percentile-charts").innerHTML, /class="cdf-marker"/);
   assert.match(get("percentile-charts").innerHTML, /No available counts/);
   assert.doesNotMatch(get("percentile-charts").innerHTML, /NaN|Infinity/);
   get("benchmark-population").value = "all";
   api.speakerBenchmark();
   assert.match(get("speaker-summary").innerHTML, /192 videos/);
+  api.reset();
+  assert.equal(get("talk").children.length, 193);
+  assert.equal(get("talk").disabled, false);
+});
+
+test("selector reuses title matcher, preserves matching talks, and ignores other filters", () => {
+  const { api, get } = dashboard();
+  for (const [query, mode] of [['"Spring Boot" -security', "all"], ["java agents", "any"],
+    ["java by", "all"], ["JULIEN topcu", "all"], ["-java", "all"]]) {
+    get("query").value = query;
+    get("match").value = mode;
+    api.render();
+    const expected = api.DATA.filter(r => api.matches(r, query, mode))
+      .sort((a,b) => a.title.localeCompare(b.title)).map(r => r.url);
+    assert.deepEqual(get("talk").children.slice(1).map(o => o.value), Array.from(expected));
+    assert.ok(expected.includes(get("talk").value));
+    get("talk").value = expected.at(-1);
+    api.render();
+    assert.equal(get("talk").value, expected.at(-1));
+    get("minviews").value = "999999";
+    api.render();
+    assert.equal(api.selected.length, 0);
+    assert.deepEqual(get("talk").children.slice(1).map(o => o.value), Array.from(expected));
+    assert.equal(get("talk").value, expected.at(-1));
+    assert.match(get("speaker-summary").innerHTML, /all videos · 192 videos/);
+    get("minviews").value = "0";
+  }
+  get("query").value = "";
+  api.render();
+  assert.equal(get("talk").children.length, 193);
 });
 
 test("search phrases, exclusions, normalization, any/all and date boundaries survive", () => {

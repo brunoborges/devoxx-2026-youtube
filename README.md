@@ -66,7 +66,14 @@ Do not retry repeatedly when YouTube rate-limits access.
 
 ## Speaker comparisons
 
-Choose a title from the independent **Your talk** list. The comparison population
+Use the main **title-keyword search** to narrow the alphabetical **Your talk**
+list, then choose a matching talk. The list reuses All/Any matching, quoted
+phrases, exclusions, and case/accent normalization. Date, topic, and view filters
+do not narrow it. A matching selection is preserved; otherwise the first match
+is selected. No matches clears the talk and its chart markers; clearing/resetting
+the search restores all titles.
+
+The comparison population remains separate from this talk-finding list and
 defaults to **all 192 videos**, ignoring title searches and dashboard filters,
 so finding one talk does not accidentally benchmark it against itself. Explicitly
 choosing **Current dashboard filters** instead compares with that cohort; the
