@@ -7,7 +7,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:18:55.366444+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:38.821839+00:00"
   },
   {
     "title": "Why it takes 3000 commits to bring Valhalla's value objects to the JDK by David Simms",
@@ -17,7 +23,13 @@
     "likes": 56,
     "captured_at_utc": "2026-10-20T14:18:56.268771+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 7,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "7 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:38.862874+00:00"
   },
   {
     "title": "What’s happening with Project Amber? By Gavin Bierman",
@@ -27,7 +39,13 @@
     "likes": 24,
     "captured_at_utc": "2026-10-20T14:18:55.730924+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:38.874184+00:00"
   },
   {
     "title": "We created our own AI orchestrator and it became so much more!  by Ricky van Rijn",
@@ -37,7 +55,13 @@
     "likes": 22,
     "captured_at_utc": "2026-10-20T14:18:53.854039+00:00",
     "published_at": "2026-10-13T09:45:25-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:39.730515+00:00"
   },
   {
     "title": "The Quantum Tech Lead: Hands On and Abstract at the Same Time  by Cristian Schuszter",
@@ -47,7 +71,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:18:54.876857+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:39.692138+00:00"
   },
   {
     "title": "Strangling the dragon: modernizing legacy systems with the Strangler Fig pattern   by Daniel Ranela",
@@ -57,7 +87,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:18:56.668055+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:39.685978+00:00"
   },
   {
     "title": "My old trains have a second life, with TinyGo! By Florian FORESTIER, Justine Bachelard",
@@ -67,7 +103,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:18:55.829006+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:40.510951+00:00"
   },
   {
     "title": "Java Next   From Valhalla to Leyden, from Babylon to Panama, from Amber to Detroit By Nicolai Parlog",
@@ -77,7 +119,13 @@
     "likes": 41,
     "captured_at_utc": "2026-10-20T14:18:53.618027+00:00",
     "published_at": "2026-10-13T09:45:25-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:40.638234+00:00"
   },
   {
     "title": "Is AI killing XP practices? Or are we letting it? By Nacho Cougil",
@@ -87,7 +135,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:18:53.748482+00:00",
     "published_at": "2026-10-13T09:45:25-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:40.742040+00:00"
   },
   {
     "title": "In the loop , not in the dark: Staying in controlling the era dark software factories   By Alex Gavr",
@@ -97,7 +151,13 @@
     "likes": 11,
     "captured_at_utc": "2026-10-20T14:18:54.561261+00:00",
     "published_at": "2026-10-13T09:45:25-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:41.324214+00:00"
   },
   {
     "title": "Escaping Java's Allocation Gravity with Value Classes By Clément de Tastes, Remi Forax",
@@ -107,7 +167,13 @@
     "likes": 38,
     "captured_at_utc": "2026-10-20T14:18:54.485730+00:00",
     "published_at": "2026-10-13T09:45:25-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 4,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "4 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:41.458609+00:00"
   },
   {
     "title": "Embabel Agent v1 5 By Rod Johnson",
@@ -117,7 +183,13 @@
     "likes": 14,
     "captured_at_utc": "2026-10-20T14:18:56.418042+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:41.430625+00:00"
   },
   {
     "title": "All you need to know about Maven 4!  by Matthias Bünger",
@@ -127,7 +199,13 @@
     "likes": 46,
     "captured_at_utc": "2026-10-20T14:18:54.773004+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 6,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "6 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:42.225393+00:00"
   },
   {
     "title": "10 boring reasons why Java is the best ecosystem for agentic development By Ed Burns",
@@ -137,7 +215,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:18:55.303175+00:00",
     "published_at": "2026-10-13T09:45:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:42.167219+00:00"
   },
   {
     "title": "10 Billion Records vs The Regulator: An Architectural Post Mortem of an 11TB Exadata Failure",
@@ -147,7 +231,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:18:54.043294+00:00",
     "published_at": "2026-10-13T09:51:18-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:42.264929+00:00"
   },
   {
     "title": "Solving Multimodal and Long Context Challenges by Laurent Picard",
@@ -157,7 +247,13 @@
     "likes": 23,
     "captured_at_utc": "2026-10-20T14:18:56.755708+00:00",
     "published_at": "2026-10-12T09:13:23-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:43.268527+00:00"
   },
   {
     "title": "Teaching an Old Handle New Tricks: From Core Reflection to FFM  by Maurizio Cimadamore, Viktor Klang",
@@ -167,7 +263,13 @@
     "likes": 27,
     "captured_at_utc": "2026-10-20T14:18:57.185373+00:00",
     "published_at": "2026-10-10T02:54:57-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:43.060752+00:00"
   },
   {
     "title": "Devoxx the mini series: The Attendee",
@@ -177,7 +279,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:18:57.588030+00:00",
     "published_at": "2026-10-10T02:29:11-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:43.238697+00:00"
   },
   {
     "title": "Devoxx Belgium : See You Next Year 🤩",
@@ -187,7 +295,13 @@
     "likes": 8,
     "captured_at_utc": "2026-10-20T14:18:57.272595+00:00",
     "published_at": "2026-10-10T02:29:49-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:43.905709+00:00"
   },
   {
     "title": "Why Java Is Perfect for AI   Just Not the AI You’re Thinking Of  by Trisha Gee, Andrey Santrosyan",
@@ -197,7 +311,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:47.902362+00:00",
     "published_at": "2026-10-09T00:43:10-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:43.993641+00:00"
   },
   {
     "title": "Who to blame? The AI, The Programmer, or The Prompt?  by Makan Sepehrifar",
@@ -207,7 +327,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:19:20.034690+00:00",
     "published_at": "2026-10-09T00:44:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:44.472367+00:00"
   },
   {
     "title": "When ORM Becomes OMG: Performance Pitfalls in JPA and Friends  by Jos Roseboom",
@@ -217,7 +343,13 @@
     "likes": 11,
     "captured_at_utc": "2026-10-20T14:19:16.668864+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:44.901539+00:00"
   },
   {
     "title": "Underneath the Black Marker: AI Techniques for Detecting and Reversing Redactions  by David vonThene",
@@ -227,7 +359,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:46.943551+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:44.913236+00:00"
   },
   {
     "title": "Toxic Flows in MCP Servers and Skills: What Your Agent Blindly Trusts by Brian Vermeer",
@@ -237,7 +375,13 @@
     "likes": 13,
     "captured_at_utc": "2026-10-20T14:18:58.866473+00:00",
     "published_at": "2026-10-09T01:57:58-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:45.222495+00:00"
   },
   {
     "title": "Their API Went Down  So Why Is My App on Fire?  by Ines Panker",
@@ -247,7 +391,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:19:47.810601+00:00",
     "published_at": "2026-10-09T00:43:06-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:45.610193+00:00"
   },
   {
     "title": "The Yearly Java Performance Update for 2026 by Per Ake Minborg",
@@ -257,7 +407,13 @@
     "likes": 16,
     "captured_at_utc": "2026-10-20T14:19:14.787467+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:45.724444+00:00"
   },
   {
     "title": "The Rise of Agent Enablement: Coding Agents Don't Scale Themselves  Neither Do Your Teams  by Patric",
@@ -267,7 +423,13 @@
     "likes": 11,
     "captured_at_utc": "2026-10-20T14:19:14.581547+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:46.058925+00:00"
   },
   {
     "title": "The Hexagonal Hangover  by Ties van de Ven",
@@ -277,7 +439,13 @@
     "likes": 62,
     "captured_at_utc": "2026-10-20T14:19:15.709113+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:46.566769+00:00"
   },
   {
     "title": "The Devoxx Robot Games  by Stephan Janssen",
@@ -287,7 +455,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:18.546131+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:46.570710+00:00"
   },
   {
     "title": "The Dark Secrets of Computer Science  by Fabien Marsaud",
@@ -297,7 +471,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:19:52.011366+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:46.862989+00:00"
   },
   {
     "title": "Taming the Chaos: Security and Predictability in LLM Powered Applications  by Rustam Mehmandarov",
@@ -307,7 +487,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:46.625877+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:47.393524+00:00"
   },
   {
     "title": "Taming Microservice Overload: Our Journey to Modular Monoliths  by Mario Klaver",
@@ -317,7 +503,13 @@
     "likes": 132,
     "captured_at_utc": "2026-10-20T14:19:14.828781+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 8,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "8 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:47.247219+00:00"
   },
   {
     "title": "State of Agentic Coding  by Daniela Petruzalek",
@@ -327,7 +519,13 @@
     "likes": 18,
     "captured_at_utc": "2026-10-20T14:19:15.493565+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:47.721267+00:00"
   },
   {
     "title": "Software engineering in the age of AI agents: who’s in control? by Bert Jan Schrijver",
@@ -337,7 +535,13 @@
     "likes": 11,
     "captured_at_utc": "2026-10-20T14:19:17.696661+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:48.026164+00:00"
   },
   {
     "title": "Snake in 10 Lines: Learning More by Coding Less  by Guus de Wit",
@@ -347,7 +551,13 @@
     "likes": 72,
     "captured_at_utc": "2026-10-20T14:18:58.537064+00:00",
     "published_at": "2026-10-09T01:57:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 10,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "10 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:48.326604+00:00"
   },
   {
     "title": "Say Goodbye to LLM API keys with Workload Identity Federation  by Siarhei Biarozkin",
@@ -357,7 +567,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:00.201561+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:48.594733+00:00"
   },
   {
     "title": "SIMD for Java: how Elasticsearch already benefits from the Panama Vector API  by Piotr Przybyl",
@@ -367,7 +583,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:17.630860+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:48.956058+00:00"
   },
   {
     "title": "Reflect, Transform, Accelerate: Bringing GPU Computing to Java By Juan Fumero",
@@ -377,7 +599,13 @@
     "likes": 19,
     "captured_at_utc": "2026-10-20T14:19:19.677045+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:49.276220+00:00"
   },
   {
     "title": "Quixotic: Pure Java Inference at Native Speed  by Alfonso² Peterssen",
@@ -387,7 +615,13 @@
     "likes": 29,
     "captured_at_utc": "2026-10-20T14:19:18.172067+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 5,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "5 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:49.468986+00:00"
   },
   {
     "title": "Project Detroit: From Foreign Libraries to Foreign Language Runtimes  by Maurizio Cimadamore",
@@ -397,7 +631,13 @@
     "likes": 14,
     "captured_at_utc": "2026-10-20T14:18:58.413825+00:00",
     "published_at": "2026-10-09T01:57:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:49.798569+00:00"
   },
   {
     "title": "Production Ready Java Containers: Smaller, Faster, Smarter  by Albert Attard",
@@ -407,7 +647,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:49.754822+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:50.168701+00:00"
   },
   {
     "title": "Owning the inference layer: When and how to run your own models  by Maarten Vandeperre, Camille Nigo",
@@ -417,7 +663,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:49.613886+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:50.344605+00:00"
   },
   {
     "title": "Owning the Code You Didn't Type by Renato Guerra Cavalcanti",
@@ -427,7 +679,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:49.802424+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:50.600752+00:00"
   },
   {
     "title": "Modernizing legacy code with AI: hands on examples & lessons learned  by Koen Vanderkimpen, Wim Lamb",
@@ -437,7 +695,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:19:50.848965+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:51.038828+00:00"
   },
   {
     "title": "Microservices Without the Distributed Mess  by Steven Hillaert",
@@ -447,7 +711,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:48.844981+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:51.155591+00:00"
   },
   {
     "title": "Making sense of vector databases  by Balkrishna Rawool",
@@ -457,7 +727,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:16.307873+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:51.384805+00:00"
   },
   {
     "title": "Knocking on the Wrong Door: The Six Developers You’ll Meet in Security  by Enrique Larios Vargas",
@@ -467,7 +743,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:47.749447+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:51.935355+00:00"
   },
   {
     "title": "Kill All Mutants! Intro to Mutation Testing by Dave Aronson",
@@ -477,7 +759,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:50.784293+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:52.176438+00:00"
   },
   {
     "title": "Keeping Spring Applications Secure in the Age of AI  by Neven Cvetkovic",
@@ -487,7 +775,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:19.323467+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:51.988051+00:00"
   },
   {
     "title": "Java on Kubernetes Without Container Images: The WebAssembly Way By Bruno Borges",
@@ -497,7 +791,13 @@
     "likes": 59,
     "captured_at_utc": "2026-10-20T14:18:58.161176+00:00",
     "published_at": "2026-10-09T01:57:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 7,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "7 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:52.946383+00:00"
   },
   {
     "title": "Java and the Next Generation of Programming Models  by Ana Maria Mihalceanu",
@@ -507,7 +807,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:19:15.661566+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:52.826471+00:00"
   },
   {
     "title": "Is the IDE dead ?  by Martin Lippert",
@@ -517,7 +823,13 @@
     "likes": 14,
     "captured_at_utc": "2026-10-20T14:19:16.539204+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:52.926941+00:00"
   },
   {
     "title": "Introducing Agent Control Theory: The System Runs the Model  by Mark Pollack",
@@ -527,7 +839,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:19:50.277225+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:53.733464+00:00"
   },
   {
     "title": "How to Architect Green Software by Ioannis Kolaxis",
@@ -537,7 +855,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:17.201116+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:53.713148+00:00"
   },
   {
     "title": "How AI transforms engineering and inspiring young minds – Ayoub Hammou Ahabchane & Kamel Zaraoui",
@@ -547,7 +871,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:18:58.363115+00:00",
     "published_at": "2026-10-09T01:57:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:53.686392+00:00"
   },
   {
     "title": "High Performance Java Native AI with CUDA and the Vector API  by Zoran Sevarac",
@@ -557,7 +887,13 @@
     "likes": 15,
     "captured_at_utc": "2026-10-20T14:18:59.332586+00:00",
     "published_at": "2026-10-09T01:57:58-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:54.642058+00:00"
   },
   {
     "title": "Hey Belfius! Meet our new bank AI assistant—and discover how we’re building and securing AI across B",
@@ -567,7 +903,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:19.078112+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:54.506252+00:00"
   },
   {
     "title": "Help! I hate my team mate! by Jessica Siewert",
@@ -577,7 +919,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:47.554721+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:54.573674+00:00"
   },
   {
     "title": "Hardwood: Building a Parquet Parser From Scratch With a Little Help From AI  by Gunnar Morling",
@@ -587,7 +935,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:19:51.671809+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:55.299679+00:00"
   },
   {
     "title": "Green Maven builds: sustainable CI in practice by Jan Boonen",
@@ -597,7 +951,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:19:44.646333+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:55.462342+00:00"
   },
   {
     "title": "From vibe coding to harness engineering: modernizing a regulated environment with AI by Anyul Rivas",
@@ -607,7 +967,13 @@
     "likes": 22,
     "captured_at_utc": "2026-10-20T14:18:57.642919+00:00",
     "published_at": "2026-10-09T01:57:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:55.548463+00:00"
   },
   {
     "title": "From a startup stack to 5 microseconds: inside a crypto trading engine  by Oleg Lobanov",
@@ -617,7 +983,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:46.789979+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:56.131190+00:00"
   },
   {
     "title": "Faster Development with Java, Python, and Micronaut  by Graeme Rocher, Thomas Wuerthinger",
@@ -627,7 +999,13 @@
     "likes": 18,
     "captured_at_utc": "2026-10-20T14:19:45.567260+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:56.261596+00:00"
   },
   {
     "title": "F*ck The System, and other bad ideas for the future by Jo Caudron",
@@ -637,7 +1015,13 @@
     "likes": 38,
     "captured_at_utc": "2026-10-20T14:19:45.612173+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:56.491282+00:00"
   },
   {
     "title": "Everyday JSON by Viktor Klang, Alan Bateman",
@@ -647,7 +1031,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:51.965613+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:56.913327+00:00"
   },
   {
     "title": "Engineering Lessons from Working on Software Older Than Me  by Guust Ysebie",
@@ -657,7 +1047,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:44.693598+00:00",
     "published_at": "2026-10-09T00:44:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:57.423462+00:00"
   },
   {
     "title": "Dream Machines & Walled Gardens  by Anders Norås",
@@ -667,7 +1063,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:17.583968+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:57.382755+00:00"
   },
   {
     "title": "Decoding the Cosmos: Voyager's 1970s Algorithms Meet Today's Cutting Edge Tech  by Pieter van der Me",
@@ -677,7 +1079,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:50.925394+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:57.739377+00:00"
   },
   {
     "title": "Conquest, time travel and explosions using Git by Alexander Chatzizacharias",
@@ -687,7 +1095,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:44.517979+00:00",
     "published_at": "2026-10-09T00:43:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:58.423472+00:00"
   },
   {
     "title": "Coder, Coach, Catalyst   using questions to make people grow  by Martin Mazur",
@@ -697,7 +1111,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:18:59.786442+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:58.249032+00:00"
   },
   {
     "title": "Choose your own adventure in agentic design patterns  by Guillaume Laforge",
@@ -707,7 +1127,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:46.992180+00:00",
     "published_at": "2026-10-09T00:43:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:58.589173+00:00"
   },
   {
     "title": "Choose your own adventure in agentic design patterns  by Guillaume Laforge",
@@ -717,7 +1143,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:49.450098+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:59.076066+00:00"
   },
   {
     "title": "Building, Shipping and Governing AI Agents on Kubernetes  by Tom O'Rourke, Ep Heijting",
@@ -727,7 +1159,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:18.401480+00:00",
     "published_at": "2026-10-09T00:44:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:59.307333+00:00"
   },
   {
     "title": "Build a private cluster for the office by John Davies",
@@ -737,7 +1175,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:45.508777+00:00",
     "published_at": "2026-10-09T00:43:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:50:59.388263+00:00"
   },
   {
     "title": "Bootiful Security  by Daniel Garnier Moiroux, Josh Long",
@@ -747,7 +1191,13 @@
     "likes": 16,
     "captured_at_utc": "2026-10-20T14:19:48.756791+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:00.024617+00:00"
   },
   {
     "title": "Beyond the Pod: Architecting and Scaling AI Agents on Kubernetes  by Abdellfetah SGHIOUAR",
@@ -757,7 +1207,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:51.894431+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:00.184471+00:00"
   },
   {
     "title": "Ask the Architects  by Gavin Bierman, Maurizio Cimadamore, Per Ake Minborg, Viktor Klang, Alan Batem",
@@ -767,7 +1223,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:48.927797+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:00.326723+00:00"
   },
   {
     "title": "Agents With Seatbelts: Practical Ways to Keep AI Code Gen Under Control  by Jonathan Vila López",
@@ -777,7 +1239,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:16.596332+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:01.067243+00:00"
   },
   {
     "title": "Agents Shouldn't Control Control Flow by Jeremy Adams",
@@ -787,7 +1255,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:14.741325+00:00",
     "published_at": "2026-10-09T00:44:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:01.043598+00:00"
   },
   {
     "title": "AI without spaghetti: Clean architecture in these of AI  by Maarten Vandeperre en Lutske van der Mee",
@@ -797,7 +1271,13 @@
     "likes": 15,
     "captured_at_utc": "2026-10-20T14:18:59.267563+00:00",
     "published_at": "2026-10-09T01:57:58-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:01.171729+00:00"
   },
   {
     "title": "AI in the Dark: Running LLMs in Air Gapped Production Environments by Mihaela Gheorghe Roman",
@@ -807,7 +1287,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:48.383555+00:00",
     "published_at": "2026-10-09T00:43:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:01.841543+00:00"
   },
   {
     "title": "ADRs: The Why and How  by Venkat Subramaniam",
@@ -817,7 +1303,13 @@
     "likes": 15,
     "captured_at_utc": "2026-10-20T14:19:44.600654+00:00",
     "published_at": "2026-10-09T00:43:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:02.104046+00:00"
   },
   {
     "title": "223 Pull Requests in 11 Days: The Recipe for Building Real Software with AI Agents  by Julien Dubois",
@@ -827,7 +1319,13 @@
     "likes": 19,
     "captured_at_utc": "2026-10-20T14:19:01.351241+00:00",
     "published_at": "2026-10-09T01:57:58-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 3,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "3 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:01.942078+00:00"
   },
   {
     "title": "\"You May Now Optimize the Wedding\": Optimizing the Seating, Bachelor Party, and Honeymoon with Const",
@@ -837,7 +1335,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:15.789437+00:00",
     "published_at": "2026-10-09T00:44:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:02.754305+00:00"
   },
   {
     "title": "\"You May Now Optimize the Wedding\": Optimizing the Seating, Bachelor Party, and Honeymoon with Const",
@@ -847,7 +1351,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:19:51.114842+00:00",
     "published_at": "2026-10-09T00:43:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:02.739879+00:00"
   },
   {
     "title": "Devoxx: ThankYou",
@@ -857,7 +1367,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:52.615176+00:00",
     "published_at": "2026-10-08T05:00:14-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:02.828366+00:00"
   },
   {
     "title": "Devoxx the mini series: The Rebellion",
@@ -867,7 +1383,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:52.974470+00:00",
     "published_at": "2026-10-08T02:10:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:03.528436+00:00"
   },
   {
     "title": "Devoxx the mini series: Kinepolis in 2170",
@@ -877,7 +1399,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:19:52.778942+00:00",
     "published_at": "2026-10-08T03:24:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:03.699642+00:00"
   },
   {
     "title": "Devoxx the mini series: Inside the singularity",
@@ -887,7 +1415,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:52.833377+00:00",
     "published_at": "2026-10-08T02:33:10-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 3,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "3 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:03.658265+00:00"
   },
   {
     "title": "rm  rf self doubt: Debugging Impostor Syndrome for Developers  by Vincent Mayers",
@@ -897,7 +1431,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:05.919166+00:00",
     "published_at": "2026-10-07T23:40:24-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:04.336177+00:00"
   },
   {
     "title": "java raspberry Pi and the art of by Matti Tahvonen",
@@ -907,7 +1447,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:59.097660+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:04.599452+00:00"
   },
   {
     "title": "Wrap, Reshape, or Redesign: Retrofitting Your APIs for a World of Agents  by Horacio Gonzalez Zaal 1",
@@ -917,7 +1463,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:53.550462+00:00",
     "published_at": "2026-10-07T23:44:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:04.716114+00:00"
   },
   {
     "title": "Why Documentation Won’t Write Itself—and AI Won’t Save You  by Christian Heitzmann",
@@ -927,7 +1479,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:00.784675+00:00",
     "published_at": "2026-10-07T23:41:55-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:05.149244+00:00"
   },
   {
     "title": "When benchmarks go bad   what we learned from measuring performance wrong  by Francesco Nigro, Holly",
@@ -937,7 +1495,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:20:07.017365+00:00",
     "published_at": "2026-10-07T23:40:15-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:05.297500+00:00"
   },
   {
     "title": "What rules the virtual? How our systems obey physical laws   by Marianne Hoornenborg",
@@ -947,7 +1511,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:20:00.910830+00:00",
     "published_at": "2026-10-07T23:41:59-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:05.728566+00:00"
   },
   {
     "title": "Welcome to Devoxx Belgium 2026 by Stephan Janssen",
@@ -957,7 +1527,13 @@
     "likes": 24,
     "captured_at_utc": "2026-10-20T14:19:56.532830+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:06.027191+00:00"
   },
   {
     "title": "The pizza party of the future 🍕 by Katie Clark and Simon Rohrer",
@@ -967,7 +1543,13 @@
     "likes": 8,
     "captured_at_utc": "2026-10-20T14:19:56.812354+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:06.167976+00:00"
   },
   {
     "title": "The Year of the Runtime  by Ron Pressler",
@@ -977,7 +1559,13 @@
     "likes": 16,
     "captured_at_utc": "2026-10-20T14:19:54.923141+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:06.815686+00:00"
   },
   {
     "title": "Surviving the \"AI Slopageddon\": How AI shakes the foundations of Open Source  by Raphael Semeteys",
@@ -987,7 +1575,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:04.947999+00:00",
     "published_at": "2026-10-07T23:40:46-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:06.881667+00:00"
   },
   {
     "title": "Structured Concurrency Looms  by Alan Bateman, Viktor Klang",
@@ -997,7 +1591,13 @@
     "likes": 13,
     "captured_at_utc": "2026-10-20T14:19:56.916129+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:06.923217+00:00"
   },
   {
     "title": "Safety, speed, and governance in the agentic era  by Oleg Šelajev",
@@ -1007,7 +1607,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:59.563273+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:07.795797+00:00"
   },
   {
     "title": "Run Frontier Open Models on consumer hardware  by Prince Canuma",
@@ -1017,7 +1623,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:20:03.822810+00:00",
     "published_at": "2026-10-07T23:41:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:07.793374+00:00"
   },
   {
     "title": "Quarkus Meets Leyden at the JVM Performance Edge  by Georgios Andrianakis, Ana Maria Mihalceanu",
@@ -1027,7 +1639,13 @@
     "likes": 16,
     "captured_at_utc": "2026-10-20T14:20:07.771769+00:00",
     "published_at": "2026-10-07T23:39:57-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:07.783866+00:00"
   },
   {
     "title": "Pragmatic multi cloud architecture: designing for resilience and portability beyond the hype   by Al",
@@ -1037,7 +1655,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:20:02.878067+00:00",
     "published_at": "2026-10-07T23:41:38-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:08.614214+00:00"
   },
   {
     "title": "Post Quantum Today: How Your Passwords Will Be Safe in a Quantum Future  by Julian Burr",
@@ -1047,7 +1671,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:00.075339+00:00",
     "published_at": "2026-10-07T23:42:27-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:08.725249+00:00"
   },
   {
     "title": "No Country For Old APIs  Wrapping legacy Java services as MCP tools without rewriting them   by Žel",
@@ -1057,7 +1687,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:07.114209+00:00",
     "published_at": "2026-10-07T23:40:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:08.565341+00:00"
   },
   {
     "title": "Mission Possible: The 45 Minute Path to Bullet Proof Java Container Images  by Pasha Finkelshtein",
@@ -1067,7 +1703,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:59.607564+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:09.507723+00:00"
   },
   {
     "title": "MCP 2 0   Stateless, New Auth CIMD, and Exciting Extensions  by James Ward",
@@ -1077,7 +1719,13 @@
     "likes": 19,
     "captured_at_utc": "2026-10-20T14:19:55.844980+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:09.376336+00:00"
   },
   {
     "title": "Life in the Ivory Tower   Confessions of a Former Developer Who Turned Into an Architect by Robin cu",
@@ -1087,7 +1735,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:55.598429+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:09.701682+00:00"
   },
   {
     "title": "Let's dance! – Teaching your robot some moves with reinforcement learning  by Thomas Endres, Martin",
@@ -1097,7 +1751,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:19:55.888936+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:10.382226+00:00"
   },
   {
     "title": "Kubernetes for Developers  by Alain Regnier",
@@ -1107,7 +1767,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:07.727513+00:00",
     "published_at": "2026-10-07T23:40:02-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:10.323910+00:00"
   },
   {
     "title": "Integration patterns for distributed systems  by Dirk Fröhner, Sabarish Sekar",
@@ -1117,7 +1783,13 @@
     "likes": 8,
     "captured_at_utc": "2026-10-20T14:20:02.967210+00:00",
     "published_at": "2026-10-07T23:41:21-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": null,
+    "comments_status": "failed",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": null,
+    "comments_error": "HTTPError: HTTP Error 429: Too Many Requests",
+    "comments_captured_at_utc": "2026-10-20T14:54:37.175077+00:00"
   },
   {
     "title": "I Hired a Real Robot as My Junior Dev — and Now My Kids Don't Want to Learn Java Anymore  by Jan Van",
@@ -1127,7 +1799,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:19:57.844377+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:11.207737+00:00"
   },
   {
     "title": "How to survive and thrive as a dev team in the exponential age of AI  Real world AI adoption, smarte",
@@ -1137,7 +1815,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:03.775614+00:00",
     "published_at": "2026-10-07T23:41:13-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:11.297241+00:00"
   },
   {
     "title": "Harness Engineering: Building the System Around Your AI Coding Agent   by JI Darwish",
@@ -1147,7 +1831,13 @@
     "likes": 12,
     "captured_at_utc": "2026-10-20T14:20:00.686283+00:00",
     "published_at": "2026-10-07T23:42:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:11.313566+00:00"
   },
   {
     "title": "Half of a billion Idle GPUs: The Case for On Device AI  by Prince Canuma",
@@ -1157,7 +1847,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:55.016475+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.073601+00:00"
   },
   {
     "title": "GraalVM Next: Layers, Crema, and WebAssembly in Action  by Alina Yurenko",
@@ -1167,7 +1863,13 @@
     "likes": 19,
     "captured_at_utc": "2026-10-20T14:20:06.061012+00:00",
     "published_at": "2026-10-07T23:40:27-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.075429+00:00"
   },
   {
     "title": "G1, ZGC, Shenandoah,     with all these GCs in Java, which one do I choose?  by Antoine DESSAIGNE",
@@ -1177,7 +1879,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:19:58.904070+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.106801+00:00"
   },
   {
     "title": "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches  by Simon Schrottner",
@@ -1187,7 +1895,13 @@
     "likes": 12,
     "captured_at_utc": "2026-10-20T14:19:58.267460+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.847125+00:00"
   },
   {
     "title": "From User Prompt to JPA Query: Comparing Tool Calling, Structured Output & Hybrid Approach  by Sebas",
@@ -1197,7 +1911,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:19:59.963193+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.902999+00:00"
   },
   {
     "title": "From Brainless to Brilliant — Giving an Open Source Robot a Mind of Its Own  by Jan Van Wassenhove",
@@ -1207,7 +1927,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:19:56.856152+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:12.867456+00:00"
   },
   {
     "title": "Eval Driven Development: Why you need it to make your Agentic Application survive Production  by  Ur",
@@ -1217,7 +1943,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:01.211664+00:00",
     "published_at": "2026-10-07T23:41:52-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:13.925028+00:00"
   },
   {
     "title": "Engineering for the Long Haul: Operating Open Source at Scale  by Sven Sellen",
@@ -1227,7 +1959,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:19:57.898001+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:13.616893+00:00"
   },
   {
     "title": "Emergent DevEx: The Good, the Bad, and the Legacy  by Makan Sepehrifar, Soroosh Khodami",
@@ -1237,7 +1975,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:19:58.774801+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:13.770948+00:00"
   },
   {
     "title": "Deterministic by Design   Achieving Reproducible Builds with Maven  by Maarten Mulders",
@@ -1247,7 +1991,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:20:01.740963+00:00",
     "published_at": "2026-10-07T23:41:49-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:14.395371+00:00"
   },
   {
     "title": "Create your own AI Agents without code  by David Gageot",
@@ -1257,7 +2007,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:07.284976+00:00",
     "published_at": "2026-10-07T23:40:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:14.428983+00:00"
   },
   {
     "title": "Consistency Patterns in Event Driven Architecture  by Emanuel Trandafir",
@@ -1267,7 +2023,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:03.965238+00:00",
     "published_at": "2026-10-07T23:40:55-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:14.661169+00:00"
   },
   {
     "title": "CRAcking Compliance   The EU Cyber Resilience Act  by Christian Schabetsberger",
@@ -1277,7 +2039,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:01.818890+00:00",
     "published_at": "2026-10-07T23:41:44-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:15.217541+00:00"
   },
   {
     "title": "Building an Agent Ready Platform  by Timo Salm",
@@ -1287,7 +2055,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:20:03.921290+00:00",
     "published_at": "2026-10-07T23:41:02-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:15.228551+00:00"
   },
   {
     "title": "Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem  by Thanos Stratikopo",
@@ -1297,7 +2071,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:20:06.013408+00:00",
     "published_at": "2026-10-07T23:40:32-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:15.415985+00:00"
   },
   {
     "title": "Build the Builder: A Java Coding Agent in Your IDE with ACP  by Vadim Briliantov",
@@ -1307,7 +2087,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:54.972195+00:00",
     "published_at": "2026-10-07T23:44:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:16.391384+00:00"
   },
   {
     "title": "Bootiful Spring Boot 4  by Josh Long",
@@ -1317,7 +2103,13 @@
     "likes": 16,
     "captured_at_utc": "2026-10-20T14:20:02.921243+00:00",
     "published_at": "2026-10-07T23:41:30-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:16.108961+00:00"
   },
   {
     "title": "Big Runtimes Make Efficient Programs  by Ron Pressler",
@@ -1327,7 +2119,13 @@
     "likes": 24,
     "captured_at_utc": "2026-10-20T14:20:04.908396+00:00",
     "published_at": "2026-10-07T23:40:50-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:16.273949+00:00"
   },
   {
     "title": "Beyond encryption at rest: computing on encrypted data  by Andrea Iacono",
@@ -1337,7 +2135,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:20:05.808416+00:00",
     "published_at": "2026-10-07T23:40:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:17.058311+00:00"
   },
   {
     "title": "Architecture Observability and Guardrails  by Victor Rentea",
@@ -1347,7 +2151,13 @@
     "likes": 32,
     "captured_at_utc": "2026-10-20T14:20:04.966444+00:00",
     "published_at": "2026-10-07T23:40:35-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:17.135462+00:00"
   },
   {
     "title": "Agentic Engineering Reconversion  by Victor Rentea",
@@ -1357,7 +2167,13 @@
     "likes": 53,
     "captured_at_utc": "2026-10-20T14:19:54.712005+00:00",
     "published_at": "2026-10-07T23:44:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 4,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "4 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:17.222434+00:00"
   },
   {
     "title": "AI Made Building Cheap  Now Decisions Are the Bottleneck   by Dave Sammut, João Rosa",
@@ -1367,7 +2183,13 @@
     "likes": 0,
     "captured_at_utc": "2026-10-20T14:20:04.861798+00:00",
     "published_at": "2026-10-07T23:40:42-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:17.910528+00:00"
   },
   {
     "title": "AI Doesn’t Click Buttons :APIs for the Agentic Age  by Kim Lauwers",
@@ -1377,7 +2199,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:19:57.403280+00:00",
     "published_at": "2026-10-07T23:44:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:17.931768+00:00"
   },
   {
     "title": "A Year of Agentic AI Evolution by Mario Fusco & Kevin Dubois",
@@ -1387,7 +2215,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:20:00.404167+00:00",
     "published_at": "2026-10-07T23:42:03-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:18.199937+00:00"
   },
   {
     "title": "A Fleet of AI Agents, Each in Its Own Sandbox: Inside Docker's Agentic Platform  by Jean Laurent de",
@@ -1397,7 +2231,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:19:55.751081+00:00",
     "published_at": "2026-10-07T23:44:09-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:18.646784+00:00"
   },
   {
     "title": "A Deserter Returns: What the Java community helped me rediscover  by Thierry Chantier",
@@ -1407,7 +2247,13 @@
     "likes": 1,
     "captured_at_utc": "2026-10-20T14:20:06.959286+00:00",
     "published_at": "2026-10-07T23:40:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:18.770905+00:00"
   },
   {
     "title": "0 to 350 Engineers on Claude Code: What Could Go Wrong?  by Nicolas Martignole",
@@ -1417,7 +2263,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:03.090286+00:00",
     "published_at": "2026-10-07T23:41:41-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:18.964674+00:00"
   },
   {
     "title": "🧰 Dev Containers: the ultimate toolbox for developers?  by Stéphane Philippart",
@@ -1427,7 +2279,13 @@
     "likes": 26,
     "captured_at_utc": "2026-10-20T14:20:11.683500+00:00",
     "published_at": "2026-10-06T22:58:53-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:19.560572+00:00"
   },
   {
     "title": "Write Java Code Like a Seasoned Hacker: 2026 Edition  by Soroosh Khodami",
@@ -1437,7 +2295,13 @@
     "likes": 25,
     "captured_at_utc": "2026-10-20T14:20:09.061791+00:00",
     "published_at": "2026-10-06T22:59:34-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:19.673016+00:00"
   },
   {
     "title": "Will Valhalla Fix Tony's Billion Dollar Mistake? by José Paumard, Remi Forax",
@@ -1447,7 +2311,13 @@
     "likes": 39,
     "captured_at_utc": "2026-10-20T14:20:15.368017+00:00",
     "published_at": "2026-10-06T22:57:50-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 4,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "4 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:20.070285+00:00"
   },
   {
     "title": "The Magic of OpenTelemetry: Rewriting Your App in Production   by Bruce Bujon",
@@ -1457,7 +2327,13 @@
     "likes": 14,
     "captured_at_utc": "2026-10-20T14:20:11.541303+00:00",
     "published_at": "2026-10-06T22:58:49-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:20.466635+00:00"
   },
   {
     "title": "The Importance of HITL to Avoid Chaos and EU Regulations for AI  by Juan Antonio Breña 🇪🇸🇪🇺",
@@ -1467,7 +2343,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:09.445895+00:00",
     "published_at": "2026-10-06T22:59:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:20.640186+00:00"
   },
   {
     "title": "Tap into the NVIDIA Ecosystem from Java with TornadoVM's Hybrid API  by Thanos Stratikopoulos, Micha",
@@ -1477,7 +2359,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:20:12.845069+00:00",
     "published_at": "2026-10-06T22:58:34-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:20.865622+00:00"
   },
   {
     "title": "Specialized AI Agents: from concept to production  by David Gageot",
@@ -1487,7 +2375,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:13.615201+00:00",
     "published_at": "2026-10-06T22:58:26-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:21.093924+00:00"
   },
   {
     "title": "Solving Distributed Transactions with the Saga Pattern and Temporal  by Andrei Sulyz",
@@ -1497,7 +2391,13 @@
     "likes": 23,
     "captured_at_utc": "2026-10-20T14:20:11.600207+00:00",
     "published_at": "2026-10-06T22:58:45-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:21.695652+00:00"
   },
   {
     "title": "Responsibly Dimming the Lights in the Software Factory  by Victor Rentea",
@@ -1507,7 +2407,13 @@
     "likes": 46,
     "captured_at_utc": "2026-10-20T14:20:12.517831+00:00",
     "published_at": "2026-10-06T22:58:38-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 4,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "4 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:21.790262+00:00"
   },
   {
     "title": "Measuring the Unmeasurable: Evaluating Generative AI in Practice  by Erin Pacquetet",
@@ -1517,7 +2423,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:14.444864+00:00",
     "published_at": "2026-10-06T22:58:11-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:21.914933+00:00"
   },
   {
     "title": "Loop Engineering, beyond prompt, context, and harness engineering  by  Guillaume Laforge, Wietse Ven",
@@ -1527,7 +2439,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:15.523863+00:00",
     "published_at": "2026-10-06T22:57:54-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:22.456631+00:00"
   },
   {
     "title": "Learning modern Java the playful way  by Marit van Dijk, Piotr Przybyl",
@@ -1537,7 +2455,13 @@
     "likes": 4,
     "captured_at_utc": "2026-10-20T14:20:13.704561+00:00",
     "published_at": "2026-10-06T22:58:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 6,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "6 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:22.651437+00:00"
   },
   {
     "title": "Java Script No, Not That One: Modern Automation with Java  by Loïc Magnette",
@@ -1547,7 +2471,13 @@
     "likes": 21,
     "captured_at_utc": "2026-10-20T14:20:09.005455+00:00",
     "published_at": "2026-10-06T22:59:23-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:22.768321+00:00"
   },
   {
     "title": "From Laptop to Lakehouse: Analytical SQL with DuckDB  by Oliver Geisser",
@@ -1557,7 +2487,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:20:12.676311+00:00",
     "published_at": "2026-10-06T22:58:41-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:23.346462+00:00"
   },
   {
     "title": "From Developer to Story Builder: Engineering a Novel, an ARG, and a Transmedia World with AI  by Rap",
@@ -1567,7 +2503,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:20:14.400953+00:00",
     "published_at": "2026-10-06T22:58:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:23.849803+00:00"
   },
   {
     "title": "Exquisite Evals for Skills & MCPs  by Christian Tzolov, James Ward",
@@ -1577,7 +2519,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:08.120024+00:00",
     "published_at": "2026-10-06T22:59:38-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:23.614717+00:00"
   },
   {
     "title": "Don’t burn your fingers in the heat of the AI revolution  And get an OpenClaw   by Maarten Vandeperr",
@@ -1587,7 +2535,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:20:13.545202+00:00",
     "published_at": "2026-10-06T22:58:23-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:24.198791+00:00"
   },
   {
     "title": "Do We Need a Build Language? Java Builds Java  by Rafael Winterhalter",
@@ -1597,7 +2551,13 @@
     "likes": 12,
     "captured_at_utc": "2026-10-20T14:20:08.928192+00:00",
     "published_at": "2026-10-06T22:59:19-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:24.456338+00:00"
   },
   {
     "title": "Cheaper or Better? The Strategic Choice Behind AI Adoption  by Miriam Sasse",
@@ -1607,7 +2567,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:14.698624+00:00",
     "published_at": "2026-10-06T22:58:03-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:24.717271+00:00"
   },
   {
     "title": "Building AI Agents from First Principles  by Adib Saikali",
@@ -1617,7 +2583,13 @@
     "likes": 36,
     "captured_at_utc": "2026-10-20T14:20:14.736729+00:00",
     "published_at": "2026-10-06T22:58:00-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:25.175995+00:00"
   },
   {
     "title": "BootUI, the missing developer console for Spring Boot and Quarkus  by Julien Dubois",
@@ -1627,7 +2599,13 @@
     "likes": 42,
     "captured_at_utc": "2026-10-20T14:20:08.651227+00:00",
     "published_at": "2026-10-06T22:59:27-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:25.441113+00:00"
   },
   {
     "title": "Beyond system out println: Applying a Debugging Mindset at Scale  by  Cees Bos",
@@ -1637,7 +2615,13 @@
     "likes": 3,
     "captured_at_utc": "2026-10-20T14:20:13.746848+00:00",
     "published_at": "2026-10-06T22:58:19-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:25.589223+00:00"
   },
   {
     "title": "Beyond assertEquals: Probabilistic Security and Bias Testing for Java LLM Applications  by Iryna Doh",
@@ -1647,7 +2631,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:09.954713+00:00",
     "published_at": "2026-10-06T22:59:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:25.917193+00:00"
   },
   {
     "title": "Beyond Code: The Intent Driven IDE for the Agentic Age by Bruno Borges",
@@ -1657,7 +2647,13 @@
     "likes": 20,
     "captured_at_utc": "2026-10-20T14:20:15.644181+00:00",
     "published_at": "2026-10-06T00:37:07-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:26.382081+00:00"
   },
   {
     "title": "AsyncAPI in action: OpenAPI for event driven applications  by Michel Schudel",
@@ -1667,7 +2663,13 @@
     "likes": 21,
     "captured_at_utc": "2026-10-20T14:20:08.021584+00:00",
     "published_at": "2026-10-06T22:59:41-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:26.507234+00:00"
   },
   {
     "title": "AI Security Deep Dive, Securing Agents and AI Applications  by  Brian Vermeer",
@@ -1677,7 +2679,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:20:12.891639+00:00",
     "published_at": "2026-10-06T22:58:29-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:26.754584+00:00"
   },
   {
     "title": "30 minutes to build your first Vidocq app, the 100% European Sovereign Java stack with zero external",
@@ -1687,7 +2695,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:20:11.718916+00:00",
     "published_at": "2026-10-06T22:59:05-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:27.244196+00:00"
   },
   {
     "title": "Your AI Agent Trusts Strangers  Let Me Show You   by  Elder Moraes",
@@ -1697,7 +2711,13 @@
     "likes": 8,
     "captured_at_utc": "2026-10-20T14:20:20.373854+00:00",
     "published_at": "2026-10-05T22:30:23-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:27.442407+00:00"
   },
   {
     "title": "The day we stopped publishing Kafka event from our API     by Virginie Zinck",
@@ -1707,7 +2727,13 @@
     "likes": 10,
     "captured_at_utc": "2026-10-20T14:20:20.220376+00:00",
     "published_at": "2026-10-05T22:30:33-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:27.526217+00:00"
   },
   {
     "title": "The Quarkus advantage: Turning build time metaprogramming into runtime performances by Mario Fusco,",
@@ -1717,7 +2743,13 @@
     "likes": 19,
     "captured_at_utc": "2026-10-20T14:20:17.435756+00:00",
     "published_at": "2026-10-05T22:31:33-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:28.323009+00:00"
   },
   {
     "title": "Testing Architecture Made Simple by Gunter Rotsaert",
@@ -1727,7 +2759,13 @@
     "likes": 14,
     "captured_at_utc": "2026-10-20T14:20:21.217084+00:00",
     "published_at": "2026-10-05T22:30:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 1,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "1 Comment",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:28.316417+00:00"
   },
   {
     "title": "Teaching a New Dog Old Tricks: Give the Agent a Debugger  by  Anton Arhipov",
@@ -1737,7 +2775,13 @@
     "likes": 13,
     "captured_at_utc": "2026-10-20T14:20:21.255794+00:00",
     "published_at": "2026-10-05T22:30:20-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:28.424964+00:00"
   },
   {
     "title": "Stopping AI Generated Architectural Drift: Deterministic Guardrails for Agentic Coding by Sasha Podl",
@@ -1747,7 +2791,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:21.471237+00:00",
     "published_at": "2026-10-05T22:30:56-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:29.180085+00:00"
   },
   {
     "title": "Secure Your Coding Agent Like It’s Malware by Richard Gross",
@@ -1757,7 +2807,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:18.095731+00:00",
     "published_at": "2026-10-05T22:31:22-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:29.229201+00:00"
   },
   {
     "title": "Prompt It Right: Spring Boot Testing in the AI Era by Philip Riecks",
@@ -1767,7 +2823,13 @@
     "likes": 12,
     "captured_at_utc": "2026-10-20T14:20:16.470839+00:00",
     "published_at": "2026-10-05T22:32:06-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:29.349895+00:00"
   },
   {
     "title": "One tool to rule them all: bash, a tiny LLM, and the birth of a coding agent  by  Philippe Charrièr",
@@ -1777,7 +2839,13 @@
     "likes": 8,
     "captured_at_utc": "2026-10-20T14:20:22.418412+00:00",
     "published_at": "2026-10-05T22:30:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:30.143083+00:00"
   },
   {
     "title": "Modern Java in Practice   The Features That Matter by   Nicolai Parlog, Falk Sippach",
@@ -1787,7 +2855,13 @@
     "likes": 46,
     "captured_at_utc": "2026-10-20T14:20:19.338381+00:00",
     "published_at": "2026-10-05T22:31:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:30.043847+00:00"
   },
   {
     "title": "Java, LEGO & AI: Teaching the Next Generation to Build, Not Just Prompt  by Eddy Vos",
@@ -1797,7 +2871,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:15.785032+00:00",
     "published_at": "2026-10-05T22:32:28-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:30.144185+00:00"
   },
   {
     "title": "Introduction to Spring AI by Timo Salm",
@@ -1807,7 +2887,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:17.363858+00:00",
     "published_at": "2026-10-05T22:31:49-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:31.036852+00:00"
   },
   {
     "title": "In the loop, not in the dark: staying in control in the era of dark software factories  by Alex Gavr",
@@ -1817,7 +2903,13 @@
     "likes": 7,
     "captured_at_utc": "2026-10-20T14:20:20.288553+00:00",
     "published_at": "2026-10-05T22:30:28-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:30.936569+00:00"
   },
   {
     "title": "From Developer to Builder: A Spec Driven Development Deep Dive by Simon Martinelli",
@@ -1827,7 +2919,13 @@
     "likes": 35,
     "captured_at_utc": "2026-10-20T14:20:18.150890+00:00",
     "published_at": "2026-10-05T22:31:27-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 2,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "2 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:31.225538+00:00"
   },
   {
     "title": "From Autocomplete to Autopilot: How AI Is Changing the Developer Experience by Tugdual Grall",
@@ -1837,7 +2935,13 @@
     "likes": 6,
     "captured_at_utc": "2026-10-20T14:20:16.641904+00:00",
     "published_at": "2026-10-05T22:32:03-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:31.758906+00:00"
   },
   {
     "title": "From AI to Agent: A Field Guide to Agentic Patterns in LangChain4j  by  Loïc Magnette",
@@ -1847,7 +2951,13 @@
     "likes": 12,
     "captured_at_utc": "2026-10-20T14:20:16.284593+00:00",
     "published_at": "2026-10-05T22:32:16-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:31.904314+00:00"
   },
   {
     "title": "Expanding Vector Search Beyond Similarity by Alina Yurenko",
@@ -1857,7 +2967,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:19.476924+00:00",
     "published_at": "2026-10-05T22:30:38-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:32.158799+00:00"
   },
   {
     "title": "Destructoring is the future of Javas Encapsulation  by  Richard Gross",
@@ -1867,7 +2983,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:17.202345+00:00",
     "published_at": "2026-10-05T22:31:53-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:32.738982+00:00"
   },
   {
     "title": "Codepocalypse Now: LangChain4j vs JetBrains Koog  by Viktor Gamov, Baruch Sadogursky",
@@ -1877,7 +2999,13 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:20:19.521229+00:00",
     "published_at": "2026-10-05T22:31:03-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:32.647927+00:00"
   },
   {
     "title": "Can AI Build a Jakarta EE Runtime? The Vidocq Experiment by Antoine Sabot Durand, yann Blazart, Seba",
@@ -1887,7 +3015,13 @@
     "likes": 5,
     "captured_at_utc": "2026-10-20T14:20:17.322322+00:00",
     "published_at": "2026-10-05T22:31:46-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:32.998303+00:00"
   },
   {
     "title": "Building the Trusted Agent Ecosystem by Ivan Petrov, Patrick McGrath",
@@ -1897,7 +3031,13 @@
     "likes": 9,
     "captured_at_utc": "2026-10-20T14:20:21.305387+00:00",
     "published_at": "2026-10-05T22:30:12-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:33.425077+00:00"
   },
   {
     "title": "Agent Loops, Decoded: Fundamentals to Agentic Patterns in Spring AI  by  Christian Tzolov",
@@ -1907,7 +3047,13 @@
     "likes": 33,
     "captured_at_utc": "2026-10-20T14:20:16.350053+00:00",
     "published_at": "2026-10-05T22:32:11-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:33.705925+00:00"
   },
   {
     "title": "The games are in. It’s your turn to play! 🎮 🕹️",
@@ -1917,6 +3063,12 @@
     "likes": 2,
     "captured_at_utc": "2026-10-20T14:20:22.061515+00:00",
     "published_at": "2026-10-01T03:45:08-07:00",
-    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg"
+    "channel_id": "UCCBVCTuk6uJrN3iFV_3vurg",
+    "comments": 0,
+    "comments_status": "available",
+    "comments_source": "YouTube public comments header",
+    "comments_reported_text": "0 Comments",
+    "comments_error": null,
+    "comments_captured_at_utc": "2026-10-20T14:51:33.816085+00:00"
   }
 ]

@@ -78,12 +78,15 @@ html[data-theme="dark"] {
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .benchmark{margin-bottom:24px;padding:16px 20px;background:var(--cp-accent-soft);border-radius:10px}.benchmark h2{font-size:15px;margin-bottom:8px}.benchmark p{font-size:13px;line-height:1.7}.benchmark small{display:block;margin-top:8px}.method code{overflow-wrap:anywhere}
 @media print{body{background:var(--cp-surface)}.shell{max-width:none;padding:0}.filters,.topbar nav,.pagination,.export,.skip{display:none}.panel{break-inside:avoid}.tablewrap{max-height:none;overflow:visible}.grid{grid-template-columns:1fr}.chart{max-height:350px}.videotable th{position:static}}
+.speaker-benchmark{margin:28px 0}.benchmark-controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(180px,1fr);gap:16px}.benchmark-controls select{max-width:100%}.benchmark-charts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:24px}.benchmark-charts article{min-width:0}.talk-count{font-size:25px;font-weight:650;margin-top:12px}.talk-count span{font-size:12px;font-weight:400;color:var(--cp-text-muted);display:block}.quantiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}.quantiles dt{font-size:11px;color:var(--cp-text-muted)}.quantiles dd{margin:4px 0;font-weight:600;font-variant-numeric:tabular-nums}.cdf-line{fill:none;stroke:var(--cp-accent);stroke-width:2}.cdf-marker{fill:var(--cp-text);stroke:var(--cp-surface);stroke-width:2}.cdf-guide{stroke:var(--cp-text);stroke-dasharray:4 4}.benchmark-summary{margin-top:16px;font-size:13px;overflow-wrap:anywhere}.comment-coverage{margin-top:12px;font-size:12px;color:var(--cp-text-muted)}
+@media(max-width:1050px){.benchmark-charts{grid-template-columns:1fr}.benchmark-charts article{border-top:1px solid var(--cp-border);padding-top:20px}.benchmark-charts .chart{max-height:300px}.benchmark-controls{grid-template-columns:1fr}.topbar{flex-wrap:wrap}}
+@media(max-width:600px){.topbar nav{gap:8px;flex-wrap:wrap}.topbar nav a{font-size:11px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#explorer">Skip to video explorer</a>
 <main class="shell">
-  <header class="topbar"><div class="brand">devoxx<span> / </span>insights</div><nav aria-label="Dashboard"><a href="#overview">Overview</a><a href="#topic-section">Topics</a><a href="#explorer">Videos</a></nav><button id="theme" aria-label="Toggle light and dark theme" title="Toggle light and dark theme">◐</button></header>
+  <header class="topbar"><div class="brand">devoxx<span> / </span>insights</div><nav aria-label="Dashboard"><a href="#overview">Overview</a><a href="#speaker-benchmark">Benchmarks</a><a href="#topic-section">Topics</a><a href="#explorer">Videos</a></nav><button id="theme" aria-label="Toggle light and dark theme" title="Toggle light and dark theme">◐</button></header>
   <div class="heading"><div><h1>What earned the audience?</h1><p>Explore reach, response, and the topics connecting 192 Devoxx videos. Search a title cohort; every insight below follows your filters.</p></div><div class="stamp"><strong>Snapshot · Oct 20, 2026</strong>Published Oct 1–20, 2026<br>DevoxxForever · Videos tab</div></div>
   <section class="filters" aria-label="Filter videos">
     <div class="searchrow">
@@ -103,10 +106,22 @@ html[data-theme="dark"] {
   </section>
   <div id="empty" class="all-empty hidden"><h2>No matching videos</h2><p>Try fewer keywords, a wider date range, or a lower minimum view count.</p><button id="emptyreset" class="primary">Show all videos</button></div>
   <section id="overview" aria-label="Summary metrics"><dl class="metrics" id="metrics"></dl></section>
+  <section class="panel speaker-benchmark" id="speaker-benchmark" aria-labelledby="speaker-heading">
+    <div class="panelhead"><div><h2 id="speaker-heading">Where does your talk sit?</h2><p>Select your talk independently of the filters above. Compare public reach and response, not talk quality.</p></div></div>
+    <div class="benchmark-controls">
+      <div><label for="talk">Your talk · all 192 titles</label><select id="talk" aria-describedby="talk-help"><option value="">Choose a talk…</option></select><p class="filterhelp" id="talk-help">Type a title's first letters while this list is focused, or browse the alphabetical list. This does not change dashboard filters.</p></div>
+      <div><label for="benchmark-population">Compare against</label><select id="benchmark-population"><option value="all">All 192 videos (default)</option><option value="filtered">Current dashboard filters</option></select><p class="filterhelp">All videos ignores title search and every other filter. Filtered mode uses the current selection, including title search.</p></div>
+    </div>
+    <p class="benchmark-summary" id="speaker-summary" role="status" aria-live="polite"></p>
+    <div class="benchmark-charts" id="percentile-charts"></div>
+    <p class="notice">Curve: share of comparison videos at or below each count (empirical CDF). Horizontal axis: count on a log(1 + count) scale; vertical axis: cumulative percentage. Dot: selected talk. P50/P90/P95/P99 are interpolated count thresholds, not percentile ranks.</p>
+    <p class="comment-coverage" id="comment-coverage"></p>
+    <p class="notice">Views and likes retain their original capture times; comments were collected separately. Comment counts can include replies and reflect YouTube's public header, not unique commenters. Different exposure, publication ages, and collection times limit comparison.</p>
+  </section>
   <aside id="benchmark" class="benchmark hidden" aria-label="Selection versus remaining videos"></aside>
   <div id="analysis">
     <div class="grid">
-      <section class="panel"><div class="panelhead"><div><h2>Videos leading the conversation</h2><p>Top 8 within your selection. Open a title to watch the source.</p></div><div><label for="rankmetric">Rank by</label><select id="rankmetric"><option value="views">Total views</option><option value="likes">Total likes</option><option value="rate">Like rate · ≥500 views</option><option value="perday">Lifetime views/day</option></select></div></div><div id="ranking"></div><p id="ranknote" class="sub"></p></section>
+      <section class="panel"><div class="panelhead"><div><h2>Videos leading the conversation</h2><p>Top 8 within your selection. Open a title to watch the source.</p></div><div><label for="rankmetric">Rank by</label><select id="rankmetric"><option value="views">Total views</option><option value="likes">Total likes</option><option value="comments">Public comments</option><option value="rate">Like rate · ≥500 views</option><option value="perday">Lifetime views/day</option></select></div></div><div id="ranking"></div><p id="ranknote" class="sub"></p></section>
       <section class="panel"><div class="panelhead"><div><h2>The shape of attention</h2><p>Video count by lifetime views. Select a band to filter the dashboard.</p></div></div><div id="histogram"></div><div class="mini-stats" id="distribution"></div></section>
     </div>
     <section class="findings" id="findings" aria-label="Insights from your selection"></section>
@@ -119,16 +134,19 @@ html[data-theme="dark"] {
       <section class="panel"><div class="panelhead"><div><h2>Find your next question</h2><p>Recurring words in the selected session titles, excluding apparent speaker credits and common stopwords.</p></div></div><div id="words" class="words"></div><p class="wordnote">Select a word to replace your title search. Counts are videos containing that exact word; the title search uses substring matching.</p><div class="mini-stats" id="wordstats"></div></section>
     </div>
   </div>
-  <section class="panel tablepanel" id="explorer"><div class="panelhead"><div><h2>Video explorer</h2><p id="tablecaption">All matching videos, with exact snapshot counts. Click a column to sort.</p></div><button class="primary export" id="export">Export CSV ↓</button></div><div class="tablewrap"><table class="videotable num" aria-describedby="tablecaption"><thead><tr><th scope="col"><button data-sort="title">Video</button></th><th scope="col"><button data-sort="date_published">Published</button></th><th scope="col" aria-sort="descending"><button data-sort="views">Views ↓</button></th><th scope="col"><button data-sort="likes">Likes</button></th><th scope="col"><button data-sort="rate">Like rate</button></th><th scope="col"><button data-sort="perday">Views/day*</button></th><th scope="col"><button data-sort="age">Age (days)</button></th></tr></thead><tbody id="videos"></tbody></table></div><div class="pagination"><span id="pageinfo" role="status"></span><div class="controls"><label for="pagesize" style="margin:0">Rows</label><select id="pagesize"><option>25</option><option>50</option><option>100</option><option value="999">All</option></select><button id="prev" aria-label="Previous page">← Previous</button><button id="next" aria-label="Next page">Next →</button></div></div></section>
+  <section class="panel tablepanel" id="explorer"><div class="panelhead"><div><h2>Video explorer</h2><p id="tablecaption">All matching videos, with exact snapshot counts. Click a column to sort. Missing comment counts sort last in either direction.</p></div><button class="primary export" id="export">Export CSV ↓</button></div><div class="tablewrap"><table class="videotable num" aria-describedby="tablecaption"><thead><tr><th scope="col"><button data-sort="title">Video</button></th><th scope="col"><button data-sort="date_published">Published</button></th><th scope="col" aria-sort="descending"><button data-sort="views">Views ↓</button></th><th scope="col"><button data-sort="likes">Likes</button></th><th scope="col"><button data-sort="comments">Comments</button></th><th scope="col"><button data-sort="rate">Like rate</button></th><th scope="col"><button data-sort="perday">Views/day*</button></th><th scope="col"><button data-sort="age">Age (days)</button></th></tr></thead><tbody id="videos"></tbody></table></div><div class="pagination"><span id="pageinfo" role="status"></span><div class="controls"><label for="pagesize" style="margin:0">Rows</label><select id="pagesize"><option>25</option><option>50</option><option>100</option><option value="999">All</option></select><button id="prev" aria-label="Previous page">← Previous</button><button id="next" aria-label="Next page">Next →</button></div></div></section>
   <details class="method"><summary>How to read this dashboard · definitions, scope & limitations</summary><ul>
     <li><strong>Source:</strong> 192 publicly listed videos from <a href="https://www.youtube.com/@DevoxxForever/videos" target="_blank" rel="noopener noreferrer">DevoxxForever’s Videos tab</a>, published from October 1, 2026 through the October 20 extraction. No qualifying uploads after October 13 were found. Shorts, Live, and unavailable uploads are excluded.</li>
     <li><strong>Snapshot:</strong> exact watch-page views and public likes captured October 20, 2026, approximately 14:18–14:21 UTC. Counts are embedded locally and do not update. Individual capture times are included in CSV exports.</li>
+    <li><strong>Comments:</strong> collected separately from the public watch-page comments header, resolving its initial comments continuation when needed. Exact integer counts only; abbreviated/missing counts are unavailable, disabled comments are marked disabled, and request/parser failures are marked failed. None is assumed to mean zero. Each record retains comment count status, reported label, source, error (if any), and a separate UTC collection timestamp. No comment text or authors are included.</li>
+    <li><strong>Speaker benchmarks:</strong> all 192 videos by default, regardless of title search. You may explicitly switch to the current dashboard filters. The independent talk selector never changes the comparison population. A selected talk outside the cohort is still compared with that cohort and is marked as outside it. Comments exclude null counts and show the smaller sample size; genuine zeros are included.</li>
+    <li><strong>Percentiles:</strong> P50/P90/P95/P99 are count thresholds using ascending values and linear interpolation at index (n − 1) × p (the same as inclusive spreadsheet percentiles). Fractional thresholds are not observed integer counts. Percentile rank = 100 × number of comparison values ≤ the talk's value ÷ n; ties receive the same upper cumulative rank. The empirical CDF is a step curve. Empty populations yield no thresholds/ranks; a single value yields that value for every threshold. High ranks describe public counts, not talk quality.</li>
     <li><strong>Publication dates:</strong> calendar dates from YouTube’s supplied publication timestamps (UTC−07:00), not event/session dates. The date interval is inclusive.</li>
     <li><strong>Like rate:</strong> likes ÷ views × 100. Aggregate rates are view-weighted (sum of likes ÷ sum of views), not averages of percentages. Likes are not unique viewers or a measure of watch time.</li>
     <li><strong>* Lifetime views/day:</strong> views divided by exact elapsed days between publication and each video’s capture timestamp. This is an age-normalized lifetime average, not current daily views, growth, or velocity. Older and newer videos still differ in exposure and distribution.</li>
     <li><strong>Concentration:</strong> top-decile share uses the highest-viewed ceil(10% × selected count) videos. Quartiles use linear interpolation; median is the middle value (or mean of the two middle values).</li>
     <li><strong>Topics:</strong> transparent, overlapping keyword rules on the title before an apparent “by” speaker credit. Expand the topic rules below to inspect them. Unmatched titles are “Other / unclassified.” Topic comparisons are descriptive, not causal.</li>
-    <li><strong>Limits:</strong> no impressions, click-through rate, watch time, subscriber conversions, audience demographics, traffic sources, or historical snapshots. We cannot infer content quality, changes over time, or that title wording caused performance. All metrics and insights recompute within your current selection.</li>
+    <li><strong>Limits:</strong> no impressions, click-through rate, watch time, subscriber conversions, audience demographics, traffic sources, or historical snapshots. We cannot infer content quality, changes over time, or that title wording caused performance. Dashboard metrics and insights follow your filters; speaker benchmarks use their separately selected comparison population.</li>
   </ul><details><summary>Inspect topic keyword rules</summary><div id="rules" class="notice"></div></details></details>
   <footer class="sourcefoot"><span>Devoxx audience research · a portable, offline-ready snapshot</span><span id="capturefoot"></span></footer>
 </main>
@@ -162,7 +180,44 @@ const DATA=RAW.map(r=>{
 const STOP=new Set("a an the and or of in on to for from with without your you our their its is are was were be been being it this that these those as at by how what why when where who which can will we i my me us not more most less all into out up about through using use used vs versus new next now own one two three real than then do does did no some so but let lets getting get beyond way build building make making need know intro introduction".split(" "));
 let selected=DATA,sortKey="views",sortDir=-1,page=0,searchTimer;
 const total=(rs,k)=>rs.reduce((s,r)=>s+r[k],0);
-const quantile=(vs,p)=>{if(!vs.length)return 0;const a=[...vs].sort((a,b)=>a-b),i=(a.length-1)*p,lo=Math.floor(i);return a[lo]+(a[Math.ceil(i)]-a[lo])*(i-lo);};
+const quantile=(vs,p)=>{if(!vs.length)return null;const a=[...vs].sort((a,b)=>a-b),i=(a.length-1)*p,lo=Math.floor(i);return a[lo]+(a[Math.ceil(i)]-a[lo])*(i-lo);};
+const isCount=v=>Number.isInteger(v)&&v>=0;
+const thresholdFormat=new Intl.NumberFormat("en-US",{maximumFractionDigits:2});
+function percentileStats(rows,key,value){
+  const values=rows.map(r=>r[key]).filter(isCount).sort((a,b)=>a-b);
+  return {values,count:values.length,rank:values.length&&isCount(value)?100*values.filter(v=>v<=value).length/values.length:null,thresholds:[.5,.9,.95,.99].map(p=>quantile(values,p))};
+}
+function commentLabel(r){return isCount(r.comments)?n(r.comments):`— (${r.comments_status||"unavailable"})`;}
+function cdfChart(stats,value,key){
+  if(!stats.count)return '<div class="empty">No available counts in this comparison population.</div>';
+  const W=360,H=245,L=44,R=14,T=16,B=46,w=W-L-R,h=H-T-B;
+  const max=Math.max(1,...stats.values,isCount(value)?value:0),domain=Math.log10(1+max);
+  const x=v=>L+Math.log10(1+v)/domain*w,y=p=>T+h-p/100*h;
+  const groups=new Map;stats.values.forEach(v=>groups.set(v,(groups.get(v)||0)+1));
+  let cumulative=0,path=`M ${L} ${y(0)}`;
+  for(const [v,count] of groups){cumulative+=count;path+=` H ${x(v)} V ${y(100*cumulative/stats.count)}`;}
+  path+=` H ${W-R}`;
+  let svg=`<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="cdf-${key}-title cdf-${key}-desc"><title id="cdf-${key}-title">${key} cumulative distribution</title><desc id="cdf-${key}-desc">${stats.count} available videos. ${stats.rank===null?"Select a talk to mark its position.":`Selected talk: ${value} ${key}; ${stats.rank.toFixed(2)} percent at or below this count.`}</desc>`;
+  [0,25,50,75,100].forEach(p=>{svg+=`<line class="gridline" x1="${L}" x2="${W-R}" y1="${y(p)}" y2="${y(p)}"/><text x="${L-7}" y="${y(p)+4}" text-anchor="end">${p}%</text>`;});
+  const ticks=[0,...[.25,.5,.75,1].map(p=>Math.expm1(Math.log1p(max)*p))];
+  ticks.forEach((v,i)=>{svg+=`<text x="${x(v)}" y="${H-B+20}" text-anchor="${i===0?"start":i===ticks.length-1?"end":"middle"}">${thresholdFormat.format(v)}</text>`;});
+  svg+=`<path class="cdf-line" d="${path}"/><text x="${L+w/2}" y="${H-3}" text-anchor="middle">${key} · log(1 + count)</text>`;
+  if(stats.rank!==null)svg+=`<line class="cdf-guide" x1="${x(value)}" x2="${x(value)}" y1="${T}" y2="${H-B}"/><circle class="cdf-marker" cx="${x(value)}" cy="${y(stats.rank)}" r="5"><title>${value} ${key}; ${stats.rank.toFixed(2)}% at or below</title></circle>`;
+  return svg+"</svg>";
+}
+function speakerBenchmark(){
+  const population=$("benchmark-population").value==="filtered"?selected:DATA;
+  const talk=DATA.find(r=>r.url===$("talk").value);
+  const member=talk&&population.some(r=>r.url===talk.url);
+  $("speaker-summary").innerHTML=`Comparison: <strong>${population===DATA?"all videos":"current dashboard filters"} · ${population.length} videos</strong>. ${talk?`Selected: <a href="${esc(talk.url)}" target="_blank" rel="noopener noreferrer">${esc(talk.title)}</a>${member?"":" · outside this comparison population"}.`:"Choose a talk to show its counts, percentile ranks, and chart markers."}${population.length===1?" One-video comparison: ranks and thresholds have little comparative meaning.":""}`;
+  $("percentile-charts").innerHTML=["views","likes","comments"].map(key=>{
+    const value=talk?.[key],stats=percentileStats(population,key,value);
+    const label=key[0].toUpperCase()+key.slice(1);
+    return `<article aria-label="${label} benchmark"><h3>${label}</h3><p class="talk-count num">${talk?(key==="comments"?commentLabel(talk):n(value)):"—"}<span>${stats.rank===null?"No selected-talk percentile rank":`${stats.rank.toFixed(2)}% of comparison counts at or below your talk`}</span></p><p class="sub">n=${stats.count} available${key==="comments"?` · ${population.length-stats.count} excluded (missing counts)`:""}</p>${cdfChart(stats,value,key)}<dl class="quantiles">${stats.thresholds.map((v,i)=>`<div><dt>P${[50,90,95,99][i]}</dt><dd>${v===null?"—":thresholdFormat.format(v)}</dd></div>`).join("")}</dl><p class="sub">Thresholds in ${key}, interpolated to two decimals.${talk&&key==="comments"?` Collected: ${esc(talk.comments_captured_at_utc||"unavailable")}.`:""}</p></article>`;
+  }).join("");
+  const available=DATA.filter(r=>isCount(r.comments)),timestamps=DATA.map(r=>r.comments_captured_at_utc).filter(Boolean).sort();
+  $("comment-coverage").textContent=`Comment coverage: ${available.length}/${DATA.length} exact counts, including ${available.filter(r=>r.comments===0).length} genuine zeros; ${DATA.filter(r=>r.comments_status==="disabled").length} disabled, ${DATA.filter(r=>r.comments_status==="unavailable").length} unavailable, ${DATA.filter(r=>r.comments_status==="failed").length} failed. Collected ${timestamps[0]||"not yet"} through ${timestamps.at(-1)||"not yet"}. Null counts are never counted as zero.`;
+}
 const med=rs=>quantile(rs.map(r=>r.views),.5);
 const rate=rs=>total(rs,"views")?total(rs,"likes")/total(rs,"views"):0;
 const desc=(rs,key)=>[...rs].sort((a,b)=>b[key]-a[key]||a.title.localeCompare(b.title));
@@ -197,9 +252,9 @@ function benchmark(){
   $("benchmark").innerHTML=`<h2>Your selection vs. the remaining ${rest.length} videos</h2><p><strong>${n(med(selected))} vs. ${n(med(rest))}</strong> median views · <strong>${pct(rate(selected))} vs. ${pct(rate(rest))}</strong> weighted like rate (${delta>=0?"+":""}${delta.toFixed(2)} percentage points) · <strong>${meanAge(selected).toFixed(1)} vs. ${meanAge(rest).toFixed(1)}</strong> average days since publication.</p><small>Two non-overlapping groups: ${selected.length} selected, ${rest.length} remaining. Different topic mixes, release ages, and sample sizes can explain differences; this is not a causal test.</small>`;
 }
 function ranking(){
-  const key=$("rankmetric").value,rs=desc(key==="rate"?selected.filter(r=>r.views>=500):selected,key).slice(0,8),max=rs[0]?.[key]||1;
-  $("ranking").innerHTML=rs.length?rs.map((r,i)=>`<div class="rank"><span class="rank-index num">${String(i+1).padStart(2,"0")}</span><div><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(r.title)}</a><div class="track"><div class="fill" style="width:${r[key]/max*100}%"></div></div></div><strong class="num">${key==="rate"?pct(r.rate):n(r[key])}</strong></div>`).join(""):'<div class="empty">No videos meet the 500-view threshold. Choose another ranking.</div>';
-  $("ranknote").textContent=key==="perday"?"Lifetime average only: views ÷ elapsed days since publication, not current daily activity.":key==="rate"?"Like-rate ranking requires at least 500 views to reduce small-sample noise.":"Ranking uses exact public counts at the snapshot, not rounded display counts.";
+  const key=$("rankmetric").value,rs=desc(key==="rate"?selected.filter(r=>r.views>=500):key==="comments"?selected.filter(r=>isCount(r.comments)):selected,key).slice(0,8),max=rs[0]?.[key]||1;
+  $("ranking").innerHTML=rs.length?rs.map((r,i)=>`<div class="rank"><span class="rank-index num">${String(i+1).padStart(2,"0")}</span><div><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" title="${esc(r.title)}">${esc(r.title)}</a><div class="track"><div class="fill" style="width:${r[key]/max*100}%"></div></div></div><strong class="num">${key==="rate"?pct(r.rate):n(r[key])}</strong></div>`).join(""):`<div class="empty">${key==="comments"?"No available comment counts in this selection.":key==="rate"?"No videos meet the 500-view threshold.":"No matching videos."} Choose another ranking or change the filters.</div>`;
+  $("ranknote").textContent=key==="perday"?"Lifetime average only: views ÷ elapsed days since publication, not current daily activity.":key==="rate"?"Like-rate ranking requires at least 500 views to reduce small-sample noise.":key==="comments"?"Exact public comment counts from their separate collection; missing counts are excluded.":"Ranking uses exact public counts at the snapshot, not rounded display counts.";
 }
 function distribution(){
   const counts=BANDS.map(b=>selected.filter(r=>r.views>=b.min&&r.views<=b.max).length),max=Math.max(1,...counts);
@@ -258,12 +313,12 @@ function words(){
   const rs=desc(selected,"views"),views=total(selected,"views"),top10=total(rs.slice(0,Math.min(10,rs.length)),"views");
   $("wordstats").innerHTML=`<div><strong class="num">${pct(views?top10/views:0)}</strong><span>View share · top ${Math.min(10,rs.length)} videos</span></div><div><strong class="num">${selected.filter(r=>r.rate>rate(selected)).length}</strong><span>Videos above the weighted like rate</span></div>`;
 }
-const SORTLABEL={title:"Video",date_published:"Published",views:"Views",likes:"Likes",rate:"Like rate",perday:"Views/day*",age:"Age (days)"};
-function ordered(){return [...selected].sort((a,b)=>{const cmp=typeof a[sortKey]==="string"?a[sortKey].localeCompare(b[sortKey]):a[sortKey]-b[sortKey];return cmp*sortDir||a.title.localeCompare(b.title);});}
+const SORTLABEL={title:"Video",date_published:"Published",views:"Views",likes:"Likes",comments:"Comments",rate:"Like rate",perday:"Views/day*",age:"Age (days)"};
+function ordered(){return [...selected].sort((a,b)=>{if(a[sortKey]==null||b[sortKey]==null)return (a[sortKey]==null)-(b[sortKey]==null)||a.title.localeCompare(b.title);const cmp=typeof a[sortKey]==="string"?a[sortKey].localeCompare(b[sortKey]):a[sortKey]-b[sortKey];return cmp*sortDir||a.title.localeCompare(b.title);});}
 function renderTable(){
   const size=Number($("pagesize").value),rs=ordered(),pages=Math.ceil(rs.length/size);
   page=Math.max(0,Math.min(page,pages-1));
-  $("videos").innerHTML=rs.length?rs.slice(page*size,(page+1)*size).map(r=>`<tr><td><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a><small>${esc(r.topics.join(" · "))}</small></td><td>${shortDate(r.date_published)}</td><td>${n(r.views)}</td><td>${n(r.likes)}</td><td>${pct(r.rate)}</td><td>${n(r.perday)}</td><td>${r.age.toFixed(1)}</td></tr>`).join(""):'<tr><td colspan="7"><div class="empty">No videos match these filters.</div></td></tr>';
+  $("videos").innerHTML=rs.length?rs.slice(page*size,(page+1)*size).map(r=>`<tr><td><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a><small>${esc(r.topics.join(" · "))}</small></td><td>${shortDate(r.date_published)}</td><td>${n(r.views)}</td><td>${n(r.likes)}</td><td title="${esc(`Status: ${r.comments_status}; collected ${r.comments_captured_at_utc}`)}">${esc(commentLabel(r))}</td><td>${pct(r.rate)}</td><td>${n(r.perday)}</td><td>${r.age.toFixed(1)}</td></tr>`).join(""):'<tr><td colspan="8"><div class="empty">No videos match these filters.</div></td></tr>';
   $("pageinfo").textContent=rs.length?`${n(page*size+1)}–${n(Math.min((page+1)*size,rs.length))} of ${n(rs.length)} videos`:"0 videos";
   $("prev").disabled=page===0;$("next").disabled=page>=pages-1;$("export").disabled=!rs.length;
   document.querySelectorAll("[data-sort]").forEach(button=>{const active=button.dataset.sort===sortKey;button.textContent=SORTLABEL[button.dataset.sort]+(active?(sortDir===-1?" ↓":" ↑"):"");button.closest("th").setAttribute("aria-sort",active?(sortDir===-1?"descending":"ascending"):"none");});
@@ -276,21 +331,23 @@ function render(){
   $("resultstatus").innerHTML=`<strong>${n(selected.length)} of ${n(DATA.length)} videos</strong> · ${n(total(selected,"views"))} views · ${n(total(selected,"likes"))} likes`;
   $("empty").classList.toggle("hidden",!!selected.length);
   $("analysis").classList.toggle("hidden",!selected.length);
-  metrics();benchmark();ranking();distribution();findings();scatter();cohorts();topicStats();words();renderTable();
+  metrics();speakerBenchmark();benchmark();ranking();distribution();findings();scatter();cohorts();topicStats();words();renderTable();
 }
 function reset(){
   ["query","start","end","topic","reach"].forEach(id=>$(id).value="");
   $("minviews").value="0";$("match").value="all";clearTimeout(searchTimer);render();
 }
 function csvCell(value){
-  let text=String(value);
+  let text=value==null?"":String(value);
   if(/^[=+\-@\t\r]/.test(text))text="'"+text;
   return '"'+text.replace(/"/g,'""')+'"';
 }
 function csvText(rs){
-  const fields=["title","url","date_published","views","likes","like_rate_percent","lifetime_views_per_day","age_days","captured_at_utc","topics"];
-  return "\ufeff"+[fields,...rs.map(r=>[r.title,r.url,r.date_published,r.views,r.likes,(r.rate*100).toFixed(4),r.perday.toFixed(2),r.age.toFixed(4),r.captured_at_utc,r.topics.join("; ")])].map(row=>row.map(csvCell).join(",")).join("\r\n");
+  const fields=["title","url","date_published","views","likes","comments","comments_status","comments_captured_at_utc","comments_source","comments_reported_text","comments_error","like_rate_percent","lifetime_views_per_day","age_days","captured_at_utc","published_at","channel_id","topics"];
+  return "\ufeff"+[fields,...rs.map(r=>[r.title,r.url,r.date_published,r.views,r.likes,r.comments,r.comments_status,r.comments_captured_at_utc,r.comments_source,r.comments_reported_text,r.comments_error,(r.rate*100).toFixed(4),r.perday.toFixed(2),r.age.toFixed(4),r.captured_at_utc,r.published_at,r.channel_id,r.topics.join("; ")])].map(row=>row.map(csvCell).join(",")).join("\r\n");
 }
+[...DATA].sort((a,b)=>a.title.localeCompare(b.title)).forEach(r=>{const o=document.createElement("option");o.value=r.url;o.textContent=r.title;$("talk").append(o);});
+$("talk").addEventListener("change",speakerBenchmark);$("benchmark-population").addEventListener("change",speakerBenchmark);
 TOPICS.concat([{name:"Other / unclassified"}]).forEach(t=>{const o=document.createElement("option");o.value=t.name;o.textContent=t.name;$("topic").append(o);});
 BANDS.forEach((b,i)=>{const o=document.createElement("option");o.value=i;o.textContent=b.name;$("reach").append(o);});
 $("rules").innerHTML=TOPICS.map(t=>`<p><strong>${t.name}</strong>: <code>${esc(t.rule.source)}</code></p>`).join("");
@@ -315,7 +372,7 @@ $("export").addEventListener("click",()=>{
 });
 $("capturefoot").textContent=`${DATA.length} videos · ${n(total(DATA,"views"))} views · ${n(total(DATA,"likes"))} likes · original snapshot`;
 render();
-window.devoxx={DATA,TOPICS,BANDS,tokens,matches,quantile,filterRows,rate,csvText,get selected(){return selected;},reset,render};
+window.devoxx={DATA,TOPICS,BANDS,tokens,matches,quantile,percentileStats,cdfChart,filterRows,rate,csvText,get selected(){return selected;},reset,render,speakerBenchmark};
 </script>
 </body>
 </html>
